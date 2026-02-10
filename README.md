@@ -1,5 +1,7 @@
 # IBM Cloud Container Registry terraform module
 
+:warning: This module is no longer maintained. Please use [terraform-ibm-container-registry](https://github.com/terraform-ibm-modules/terraform-ibm-container-registry) for configuring IBM Cloud Container Registry.
+
 Terraform module that sets up a namespace within the IBM Cloud Container Registry and configures it in the cluster
 for use. Configuring the cluster includes adding the icr pull secret in the cluster-wide pull secret
 and adding a ConsoleLink to ocp 4.x clusters.
